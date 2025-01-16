@@ -1,0 +1,9 @@
+Cryptocurrency Analysis Summary
+----------------------------------------
+Average Price of Top 50 Cryptocurrencies: $4138.41
+
+Cryptocurrency with the Highest 24-hour Percentage Change:
+Aave (aave): 15.59%
+
+Cryptocurrency with the Lowest 24-hour Percentage Change:
+Hyperliquid (hype): -7.18%
