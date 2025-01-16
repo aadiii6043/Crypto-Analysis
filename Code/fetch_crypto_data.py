@@ -11,12 +11,12 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 # Google Sheets API setup
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+scope = ["your spreadsheet", "your google sheet api"] # Replace with your actual Google Sheet API
 credentials = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
 client = gspread.authorize(credentials)
 
 # Google Sheet ID
-sheet_id = "1_r7OYFnNFD7NMjzi1AoYTv4_SOP5WGU4onelk1vvMZg"  # Replace with your actual Google Sheet ID
+sheet_id = "spreadsheet ID"  # Replace with your actual Google Sheet ID
 
 # Open the Google Sheet
 try:
